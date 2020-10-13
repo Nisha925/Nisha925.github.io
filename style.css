@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6 {
         line-height: 1.8;
     }
 
-    .upper{
+    #upper{
             background-color:#d1d1d1;
 }
     /* Create a Parallax Effect */
