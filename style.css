@@ -33,7 +33,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
     /* Third image (Contact) */
     .bgimg-3 {
-        background-image: url(("Image2.jpeg");
+        background-image: url("Image2.jpeg");
         min-height: 400px;
     }
 
