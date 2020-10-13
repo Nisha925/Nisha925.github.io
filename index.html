@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Nisha Gahlawat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COURSE WORK</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" style="color:black; opacity:1;">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">COURSE WORK</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap; opacity:0.4;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WELCOME TO <span class="w3-hide-small">MY</span> WEBSITE</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center"><em>I love Web Designing, Data Science, Mathematics, Finance, and Poetry.</em></p>
+        <p>
+            Hi! Welcome to my website. I am Nisha Gahlawat. I hope you get to know me well through this website. All of the things like my education, skills and  hobbies are listed on this page. So keep on watching. Thank you!
+        </p>         <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Nisha Gahlawat</b></p><br>
+                <img src="/C:/Users/Dalbir/Downloads/Image2.jpeg" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>
+                    I recently completed my post graduation from Indian Institute of Technology, Mandi (Himachal Pradesh) with a M.Sc. degree in Applied Mathematics in July 2020.
+                    I enjoy doing mathematics, and particularly I am really keen to learn and apply my knowledge to financial risk management.
+                    So my master's thesis was focused on portfolio and risk management titled “Clustering Time Series for Financial Applications”.
+                    Along with that I like to go out of my comfort zone and learn new things that I am passionate about.
+                    Web Development and Data Science are examples for that. So I also opted for courses like Programming Practicum, Soft Computing, Pattern Recognition and Computer Vision during my master's.
+                    And to satisfy my zeal for Web Development, I learn it on my own from online courses and real life projects.
+                    Other than that I really like poetry, and expressing my thoughts through beautiful poems.
+                </p>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-5" id="nameskills">
+        <h2 class="w3-center">Skills</h2>
+    </div>
+
+    <div class="row" style="padding-left:5%; padding-right:5%; min-height:unset;word-wrap:break-word" ; text-overflow:ellipsis;>
+        <div class="column" style="        border: dashed;
+        border-color: black;
+        border-width: 3px;
+        text-decoration-color: black;
+        background-color: #faddc5;">
+
+            <h3 style="text-align:center;">Programming Languages</h3>
+            <h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+            </ul>
+            </h4>
+        </div>
+        <div class="column" style="
+        border: dashed;
+        border-color: black;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-left-color: white;
+        text-decoration-color: black;
+        background-color: #bef7ee;">
+            <h3 style="text-align:center;">Frameworks + Tools</h3>
+            <h4>
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>Git Hub</li>
+                    <li>Atom</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </h4>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="w3-content w3-container" id="skills" style="margin-bottom:5%;">
+        <p class="w3-large w3-center w3-padding-16">Though I don't really like the idea of rating myself. But still </br>I'm really good at:</p>
+        <p class="w3-wide"><i class="fa fa-code"></i>Python Programming</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-calculator"></i>SQL</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+        </div>
+
+        <p class="w3-wide"><i class="fa fa-desktop"></i>Data Science</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">85%</div>
+        </div>
+
+        <p class="w3-wide"><i class="fa fa-book"></i>Mathematics</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+
+    </div>
+
+    <div class="w3-container" id="projects" style="padding-left: 3%; padding-right: 3%;padding-bottom: 5%;">
+
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+            <br><p style="text-align:center; padding-left:0%;">Here is the list of a few acadamic projects I have done.</p>
+            <div class="w3-quarter w3-section" style="text-align:center; padding-left:48%;">
+                <span class="w3-xlarge">Projects</span><br>
+            </div>
+        </div>
+        <!--   Projects
+        #########################################################################################################
+        ##############################################################################################################Second Parallax Image with Portfolio Text -->
+
+        <button class="accordion"> <h3>1. Clustering of Time Series for Financial Applications <br /></h3> Master's Thesis on Portfolio and Risk Management</button>
+        <div class="panel">
+            <p>
+                This project was focused on using cluster analysis with a much broader application than the filtering
+                of empirical covariance matrices from the estimated correlation coefficients. That is, using clustering
+                over an empirical variance-covariance matrix for diversification, i.e., to quantify the risk associated
+                with the portfolio. And to be able to do that, we need to obtain distances between the financial time
+                series. So it all boils down to find a suitable distance measure based on (copula, margins) representation between financial time series which when used in clustering procedures,
+                can encode all the available information present in the cross-dependent random variables.
+            </p>
+            <h6>Tools/techniques: Python, Scikit-learn, Numpy, Pandas, Matplotlib, Statistical Analysis, Cluster Analysis etc.</h6><br />
+        </div>
+
+        <button class="accordion"> <h3>2. Spam Filtering System <br /></h3> Programming Practicum</button>
+        <div class="panel">
+            <p>
+                Built a spam filtering system using KNN and Naive Bayes Classifier techniques.
+                The open-source tool Word Cloud was used for visualizing and analyzing the data.
+                For text cleaning Word Stemmer and Word Lemmatization techniques and for feature extraction
+                and vectorization of the text data, the TF-IDF algorithm was exploited.
+                And then KNN and Naive Bayes algorithms were used in designing the final spam classifier.
+            </p>
+            <h6>Tools/techniques: Python, NLTK, Scikit-learn, Numpy, Pandas etc.</h6>
+            <h6>Link: <a href="https://github.com/Nisha925/Spam-Email-classification" style="color:blue;">https://github.com/Nisha925/Spam-Email-classification</a></h6>
+        </div>
+
+        <button class="accordion"> <h3>3. Image-Mosaicing <br /></h3>Computer Vision</button>
+        <div class="panel">
+            <p>
+                Generated an image mosaic/ panorama from images. Given a set of image correspondences, the projection transforms were
+                calculated and the final mosaic image was generated. <br />
+
+                <br />
+                Adjacent pictures that had atleast 40% overlap were ordered from left to right. Generated SIFT features among images,
+                then established correspondence between features. Then applied RANSAC (Random Sampling and Consensus) to get rid of outliers.
+                Then generated initial estimate of Homography using inlier correspondence points.
+                Then Refine the Homography estimate using Levenberg- Marquardt optimization.
+                Repeated the above steps for each of the adjacent image pairs.
+                After obtaining Homographies for each of the picture pairs, get the homographies with respect to the central image.
+                Then projected all images (using inverse warping) on to a blank canvas.<br />
+            </p>
+            <h6>Tools/techniques: SIFT, RANSAC , Inverse Warping,Python.</h6>
+            <h6>Link: <a href="https://github.com/Nisha925/Image-Mosaicing" style="color:blue;">https://github.com/Nisha925/Image-Mosaicing</a></h6>
+        </div>
+
+        <button class="accordion"> <h3>4. Bookish <br /></h3>Book Reviewing Web Application</button>
+        <div class="panel">
+            <p>
+                Developed a book review web application where users can be able to search for books,
+                leave reviews for individual books, and see the reviews made by other people.
+                Used third party API by Goodreads, other book review websites, to pull in ratings
+                from a larger audience.
+            </p>
+            <h6>
+                Tools/techniques: HTML, CSS, Bootstrap, JavaScript, Flask backend, and PostgreSQL.
+            </h6><br />
+
+        </div>
+
+    </div>
+    <!-- #########################################################################################################
+    ##############################################################################################################Second Parallax Image with Portfolio Text -->
+    <!-- Second Parallax Image with Portfolio Text -->
+
+    <div class="w3-container" style="padding-left: 3%;padding-right:3%;">
+        <div class="bgimg-2 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-20" id="portfolio">
+        <h3 class="w3-center">Relevant Courses that I studied during my post graduation and through online resources.</h3>
+    </div>
+
+    <div class="row" style="padding-left:5%; padding-right:5%; min-height:unset;word-wrap:break-word" ; text-overflow:ellipsis;>
+        <div class="column" style="
+        border: dashed;
+        border-color: black;
+        border-width: 3px;
+        text-decoration-color: black;
+        background-color: #faddc5;">
+
+            <h3 style="text-align:center;">Computer Science Courses</h3>
+            <ul>
+                <li>Programming Practicum</li>
+                <li>Pattern Recognition</li>
+                <li>SQL fo Data Science</li>
+                <li>Soft Computing</li>
+                <li>Computer Vision</li>
+                <li>Applied Machine Learning in Python</li>
+                <li>Web Development with Python and JavaScript</li>
+                <li>Python and Django Full Stack Web Developer Bootcamp</li>
+            </ul>
+        </div>
+        <div class="column" style="
+        border: dashed;
+        border-color: black;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-left-color: white;
+        text-decoration-color: black;
+        background-color: #bef7ee;">
+            <h3 style="text-align:center;">Mathematics + Finance Courses</h3>
+            <ul>
+                <li>Linear Algebra</li>
+                <li>Calculus</li>
+                <li>Optimization Techniques</li>
+                <li>Probability and Statistics</li>
+                <li> Portfolio and Risk Management</li>
+                <li>Applied Mathematical Porgramming</li>
+                <li>Behavioural Finance</li>
+                <li>Econometrics:Methods and Applications</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container" style="margin-top:5%; border:double; border-width:2px; border-color:hotpink;">
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+            <br><p style="text-align:center; padding-left:0%;"></p>
+            <h1 style="text-align:center;"> Poetry</h1>
+
+        </div>
+        <!-- <h1 style="text-align:center; text-decoration-color:black;">Poetry </h1>  -->
+
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <h3 style="text-align: left;
+        text-decoration-color: black;
+        margin-top: 40%;">
+                Here's a sneak peek in my poetry.
+            </h3>
+            <p>
+                Poetry is something that connects me to my inner self. I express my thoughts and feelings through poems. I have been writing poems since my childhood. And it still seems new to me everytime with the same excitement and enthusiasm. Here I present to you a sneak peek into my little world of poetry.
+            </p>
+        </div>
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" style="margin-top:3%;margin-bottom:5%;">
+            <div class="numbertext">1 / 3</div>
+            <img src="Poem1.jpeg" style="width:50%; margin:0 auto;">
+
+        </div>
+
+        <div class="mySlides fade" style="margin-top:3%;margin-bottom:5%;">
+            <div class="numbertext">2 / 3</div>
+            <img src="Poem2.jpeg" style="width:50%">
+
+        </div>
+
+        <div class="mySlides fade" style="margin-top:3%;margin-bottom:5%;">
+            <div class="numbertext">3 / 3</div>
+            <img src="Poem3.jpeg" style="width:50%">
+
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">Contact Me!</h3>
+        <p class="w3-center"><em>I'd love to connect with you! Let's get in Touch.</em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0b54pX1ag9HJpe-_uVAkfnjJ5J5TI1KhwRg&usqp=CAU" class="w3-image w3-round" style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Sonipat, Haryana, India<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 7206049935<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: nishagahlawat925@gmail.com<br>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <p>You can also contact me on facebook OR LinkedIn.</p>
+            <a href="https://www.facebook.com/nisha.gahlawat.585/"><i class="fa fa-facebook-official w3-hover-opacity"> </i></a>
+            <a href="https://www.linkedin.com/in/nisha-gahlawat-8a910a1a6"> <i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+        </div>
+        <p> Thank You!</p>
+    </footer>
+
+    <script src="myscript.js"></script>
+
+</body>
+</html>
